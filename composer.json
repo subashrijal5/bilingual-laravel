@@ -1,5 +1,6 @@
 {
     "name": "subashrijal5/bilingual-laravel",
+    "version": "0.0.1",
     "description": "laravel package to generate multiple language in single click",
     "keywords": [
         "laravel",
