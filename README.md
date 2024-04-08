@@ -1,10 +1,11 @@
 # Very short description of the package
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/subashrijal5/bilingual.svg?style=flat-square)](https://packagist.org/packages/subashrijal5/bilingual)
-[![Total Downloads](https://img.shields.io/packagist/dt/subashrijal5/bilingual.svg?style=flat-square)](https://packagist.org/packages/subashrijal5/bilingual)
-![GitHub Actions](https://github.com/subashrijal5/bilingual/actions/workflows/main.yml/badge.svg)
+[![Total Downloads](https://img.shields.io/packagist/dt/subashrijal5/bilingual-laravel.svg?style=flat-square)](https://packagist.org/packages/subashrijal5/bilingual)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+This is official package of [Bilingual](https://bilingual.vuvusha.com).
+It allows you to translate all of your translations with translator of your choice, such as Deepl, Google, Bilingual etc. 
+
 
 ## Installation
 
@@ -18,6 +19,7 @@ composer require subashrijal5/bilingual
 
 ```php
 php artisan bilingual:get-translated
+php artisan bilingual:push-translation
 ```
 
 ### Testing
@@ -46,7 +48,3 @@ If you discover any security related issues, please email subashrijal5@gmail.com
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Laravel Package Boilerplate
-
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
