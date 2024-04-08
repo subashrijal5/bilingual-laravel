@@ -8,7 +8,7 @@
         "translation",
         "laravel-bilingual",
         "laravel-multilanguage",
-        "laravel-translation",
+        "laravel-translation"
     ],
     "homepage": "https://github.com/subashrijal5/bilingual-laravel",
     "license": "MIT",
